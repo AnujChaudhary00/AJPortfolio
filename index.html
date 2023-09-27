@@ -1,0 +1,281 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <div class="nav-menu">
+            <ul>
+                <li id="home">Home</li>
+                <li>BIO</li>
+                <li>Projects</li>
+                <li>Skills</li>
+                <li>Achievements</li>
+                <li>Hire Me</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="display-1">
+        <img src="Anuj.jpeg" alt="Background Image" class="display-1-image">
+        <div class="overlay">
+            <p class="name">
+                Anuj Chaudhary
+            </p>
+        </div>
+    </div>
+    <div class="display-2">
+        <img src="AnujPro.jpeg" alt="">
+        <div class="bio">
+            <h1 class="bio-title">About Me</h1>
+            <p class="bio-description">
+                This CSS code uses the linear-gradient property to create a gradient overlay that flows from transparent
+                at the top to black at the bottom.
+                The gradient overlay enhances the readability of the text by providing a gradual transition from
+                transparent to a darker background.
+                You can adjust the gradient's opacity and colors as needed to achieve the desired visual effect.
+
+                This CSS code uses the linear-gradient property to create a gradient overlay that flows from transparent
+                at the top to black at the bottom.
+                The gradient overlay enhances the readability of the text by providing a gradual transition from
+                transparent to a darker background.
+                You can adjust the gradient's opacity and colors as needed to achieve the desired visual effect.
+            </p>
+        </div>
+    </div>
+    <div class="display-3">
+        <h1 class="title">
+            What I can be paid for
+        </h1>
+        <div class="work">
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Writing API's</p>
+                </div>
+            </div>
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Database Schema Design</p>
+                </div>
+            </div>
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>UI Development</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Cooking</p>
+                </div>
+            </div>
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Teaching</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="display-4">
+        <h1 class="title-3">
+            Other Things I Love
+        </h1>
+        <div class="work">
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Swimming</p>
+                </div>
+            </div>
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p></p>
+                </div>
+            </div>
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>UI Development</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Cooking</p>
+                </div>
+            </div>
+            <div class="card">
+                <img  src="AnujPro.jpeg" alt="">
+                <div class="card-heading">
+                    <p>Teaching</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        // Get all menu items
+        const menuItems = document.querySelectorAll('.nav-menu li');
+
+        // Add a click event listener to each menu item
+        menuItems.forEach((menuItem) => {
+            menuItem.addEventListener('click', () => {
+                // Remove the "active" class from all menu items
+                menuItems.forEach((item) => {
+                    item.classList.remove('active');
+                });
+
+                // Add the "active" class to the clicked menu item
+                menuItem.classList.add('active');
+            });
+        });
+
+
+        const observer = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    element.style.animation = 'fadein 2s ease-in';
+                }
+            }
+        });
+
+        const element = document.querySelector('.bio-description');
+        observer.observe(element);
+
+
+
+    </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+        <nav class="nav">
+            <div class="nav-menu">
+                <ul>
+                    <li id = "home"><a href="#home">Home</a></li>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hobbies">Hobbies & Interests</a></li>
+                </ul>
+            </div>
+        </nav>        
+    
+    <div class="display-1">
+        <img src="Anuj.jpeg" alt="Background Image" class="display-1-image">
+        <div class="overlay">
+            <p class="name">
+                Anuj Chaudhary
+            </p>
+        </div>
+    </div>
+    
+    
+    <section id="bio">
+        <div>
+            <h2>About Me</h2>
+            <div>
+
+                <p>
+                    Backend developer with experience in building and maintaining APIs using JavaScript and TypeScript. Skilled in database design and DevOps practices. 
+                    Fluent in communication, research, brainstorming, and ideation.
+                     Proven ability to solve problems using technical solutions.
+                     I am passionate about building innovative and scalable backend solutions. I am also a team player and I am always willing to go the extra mile to help my team succeed. 
+                     I am looking for a challenging and rewarding position where I can use my skills and experience to make a significant impact.
+                </p>
+            </div>
+        </div>
+      
+    </section>
+    
+    <section id="skills">
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>REST API Building</li>
+                <li>Database Design</li>
+                <li>Photography</li>
+                <li>Photo & Video Editing</li>
+                <li>Product Ideation</li>
+            </ul>
+        </div>
+      
+    </section>
+    
+    <section id="experiences">
+        <div>   
+            <h2>Experiences</h2>
+            <br>
+            <h3>Associate Data Engineer at Virtusa Consulting Services - june 2021 - march 2022</h3>
+            <ul>
+                    <li>worked on data related projects where i did ETL using AWS tools. </li>
+                    <li>Got trained on python and wrote data cleaning scripts in python</li>
+            </ul>
+
+            <h3>Full Stack Developer at Mindler Education Pvt Ltd - April 2022 - present</h3>
+            <ul>
+                    <li>Worked on Angular Related projects, Builded Mindler product's frontend</li>
+                    <li>Developed and Deploy REST API's</li>
+                    <li>Database designs for new projects at Mindler</li>
+                    <li>Design & Builded a AI based Chatbot using Open AI</li>
+            </ul>
+
+        </div>
+     
+    </section>
+    
+    <section id="projects">
+        <div>
+            <h2>Projects</h2>
+           <ul>
+            <li>Analytics Dashboard:- Developed Backend & Frontend of Analytics Dashboard for Mindler's Products</li>
+            <li>Chatbot:- Desing and Build AI based chatbot for Mindler's product</li>
+            <li>Desing, Developed & Deployed a School Management System in Angular, Node and AWS</li>
+            <li>Desing Devloped & Deploy a Personal Portfolio Website</li>
+           </ul>
+        </div>
+      
+    </section>
+    
+    <section id="hobbies">
+        <div>   
+            <h2>Hobbies & Interests</h2>
+            <li>Photography & Editing</li>
+            <li>Swimming</li>
+            <li>Guitar playing</li>
+            <li>Book Reading</li>
+            <li>Traveling & Exploring</li>
+            <li>Business Research & Study</li>
+        </div>
+     
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

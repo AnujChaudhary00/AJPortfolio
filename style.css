@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
+
+/* body {
+} */
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    background-color: #000000;
+    backdrop-filter: blur(50px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    /* Adjust the height as needed */
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li a {
+    margin: 0 15px;
+    /* Adjust the spacing between menu items */
+    font-size: 18px;
+    /* Adjust the font size as needed */
+}
+
+/* Style the links (you can adjust the colors and styles as needed) */
+/* Style the links (you can adjust the colors and styles as needed) */
+.nav-menu li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease, background 0.3s ease;
+    /* Adjust the transition duration to make it smoother */
+    padding: 8px 12px;
+}
+
+.nav-menu li a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    /* Transparent background with a glassy effect */
+    border-radius: 10%;
+    backdrop-filter: blur(12px);
+    color: rgb(226, 119, 255);
+    /* Change to the desired hover color */
+    transition: color 0.8s ease, background 0.3s ease;
+    /* Apply the same duration to the hover effect */
+}
+
+.display-1 {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    /* Hide overflowing content */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the display-1-image (background image) */
+.display-1-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* Place the image behind the text */
+}
+
+/* Style the overlay div to center and style the text */
+.overlay {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 80px;
+    color: white;
+    /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Text shadow */
+    z-index: 2;
+    /* Place text above the image */
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+}
+
+/* Style the name paragraph */
+.name {
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    text-align: center;
+}
+
+section {
+    max-width: 100%; /* Adjust the maximum width as desired */
+    margin: 0 auto; /* Center-align the section content */
+    padding: 3.5em 10em;
+}
+
+/* Center-align text within sections */
+section div{
+    justify-content: center;
+    line-height: 2em;
+    min-height: 550px;
+
+}
+
+#bio{
+    color: #434200;
+    background: linear-gradient(to bottom, transparent, rgb(254, 246, 81));
+}
+
+
+#skills{
+    background: linear-gradient(to bottom, transparent, rgb(81, 211, 254));
+    color: rgb(0, 0, 0);
+}
+
+#experiences{
+    background: linear-gradient(to bottom, transparent, rgb(126, 51, 218));
+    color: rgb(25, 12, 41);
+}
+
+#projects{
+    background: linear-gradient(to bottom, transparent, rgb(41, 236, 100));
+    color: rgb(12, 52, 24);
+}
+
+#hobbies{
+    background: linear-gradient(to bottom, transparent, rgb(120, 18, 122));
+    color: rgb(27, 8, 18);
+}
+
+/* Add more styles as needed */
+@media (min-width: 500px) {
+    .element {
+      visibility: visible;
+    }
+  }
+  
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+
+@keyframes typing {
+    from {
+        width: 0;
+        /* Start with no width */
+    }
+
+    to {
+        width: 30%;
+        /* End with full width */
+    }
+}
+
+/* Define the blinking cursor animation */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+        /* Make the cursor transparent */
+    }
+
+    50% {
+        border-color: #333;
+        /* Blink the cursor with a color */
+    }
+}
